@@ -46,8 +46,6 @@ class PendingJobsController extends Controller
      */
     public function index(Request $request)
     {
-        ray('in index');
-
         $jobs = ! $request->query('tag')
             ? $this->paginate($request)
             : $this->paginateByTag($request, $request->query('tag'));

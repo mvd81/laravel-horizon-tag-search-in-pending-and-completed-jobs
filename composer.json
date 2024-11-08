@@ -26,8 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "mvd81\\laravelHorizonTagSearchInPendingAndCompletedJobs\\": "src/",
-      "Laravel\\Horizon\\": "app/packages/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs/src/"
+      "mvd81\\laravelHorizonTagSearchInPendingAndCompletedJobs\\": "src/"
     }
   },
   "autoload-dev": {
