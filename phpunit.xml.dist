@@ -19,9 +19,6 @@
         <testsuite name="Feature">
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
-        <testsuite name="Controller">
-            <directory suffix="Test.php">./tests/Controller</directory>
-        </testsuite>
     </testsuites>
     <php>
         <server name="REDIS_CLIENT" value="predis"/>

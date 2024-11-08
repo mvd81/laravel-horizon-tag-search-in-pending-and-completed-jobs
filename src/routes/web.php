@@ -5,7 +5,6 @@ use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\Comp
 use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\CustomHomeController;
 use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\PendingJobsController;
 
-// Re-register the route with your custom controller
 Route::middleware(['web'])
     ->namespace($this->app->getNamespace().'Http\Controllers')
     ->group(function () {
