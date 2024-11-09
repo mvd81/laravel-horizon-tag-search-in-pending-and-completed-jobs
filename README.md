@@ -13,6 +13,8 @@ Hopefully, this is a temporary package until this PR https://github.com/laravel/
 ## Installation
 `composer require mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs`
 
+If you have not yet installed Horizon, run `php artisan horizon:install` 
+
 ## What this package does
 
 * Overrides the frontend to enable searching through pending and completed jobs.
