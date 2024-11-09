@@ -15,8 +15,8 @@ This package allows searching for jobs in pending and completed states based on 
 Hopefully, this is a temporary package until this PR https://github.com/laravel/horizon/pull/1513 is merged.
 
 ## Screencast
+https://github.com/user-attachments/assets/057da12b-c4d6-4947-a030-578714e9e0bd
 
-https://github.com/user-attachments/assets/edac4e0e-2386-4b20-9feb-e09aadf4cdf1
 
 ## Installation
 `composer require mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs`
@@ -32,8 +32,3 @@ If you have not yet installed Horizon, run `php artisan horizon:install`
 ## License
 
 Laravel Horizon tag search in pending and completed jobs is open-sourced software licensed under the [MIT license](LICENSE.md).
-
-
-
-
-
