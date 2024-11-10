@@ -1,6 +1,4 @@
-<p align="center">
-    <h1>Laravel Horizon tag search in pending and completed jobs</h1>
-</p>
+<h1 align="center">Laravel Horizon tag search in pending and completed jobs</h1>
 
 <p align="center">    
 <img src="https://github.com/user-attachments/assets/a0e876b4-2c15-420c-a90b-f58857d8c33a" width="200" />
