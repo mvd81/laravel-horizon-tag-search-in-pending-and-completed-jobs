@@ -1,5 +1,5 @@
 <p align="center">
-    # Laravel Horizon tag search in pending and completed jobs
+    <h1>Laravel Horizon tag search in pending and completed jobs</h1>
 </p>
 
 <p align="center">    
