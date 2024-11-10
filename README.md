@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs/actions"><img src="https://github.com/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs/actions"><img src="https://github.com/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs"><img src="https://img.shields.io/packagist/dt/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs"><img src="https://img.shields.io/packagist/v/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs"><img src="https://img.shields.io/packagist/l/mvd81/laravel-horizon-tag-search-in-pending-and-completed-jobs" alt="License"></a>
