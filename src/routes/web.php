@@ -15,11 +15,12 @@ Route::namespace('mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Co
             ->where('view', '(.*)')
             ->name('horizon.index');
 
-        Route::prefix('api')
-            ->get('/jobs/pending', [PendingJobsController::class, 'index'])
-            ->name('horizon.pending-jobs.index');
+        Route::prefix('api')->group(function () {
 
-        Route::prefix('api')
-            ->get('/jobs/completed', [CompletedJobsController::class, 'index'])
-            ->name('horizon.completed-jobs.index');
+            Route::get('/jobs/pending', [PendingJobsController::class, 'index'])
+                ->name('horizon.pending-jobs.index');
+
+            Route::get('/jobs/completed', [CompletedJobsController::class, 'index'])
+                ->name('horizon.completed-jobs.index');
+        });
     });
