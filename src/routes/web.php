@@ -5,7 +5,7 @@ use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\Comp
 use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\CustomHomeController;
 use mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers\PendingJobsController;
 
-Route::middleware(['web'])
+Route::middleware(config('horizon.middleware', 'web'))
     ->namespace($this->app->getNamespace().'Http\Controllers')
     ->group(function () {
         Route::get('/horizon/{view?}', [CustomHomeController::class, 'index'])
@@ -16,6 +16,7 @@ Route::middleware(['web'])
 Route::namespace('mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers')
     ->domain(config('horizon.domain', null))
     ->prefix(config('horizon.path'))
+    ->middleware(config('horizon.middleware', 'web'))
     ->group(function () {
 
         Route::get('/jobs/pending', [PendingJobsController::class, 'index'])
