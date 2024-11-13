@@ -11,7 +11,7 @@ Route::namespace('mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Co
     ->middleware(config('horizon.middleware', 'web'))
     ->group(function () {
 
-        Route::get('/horizon/{view?}', [CustomHomeController::class, 'index'])
+        Route::get('/{view?}', [CustomHomeController::class, 'index'])
             ->where('view', '(.*)')
             ->name('horizon.index');
 
