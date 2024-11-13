@@ -14,7 +14,8 @@ Route::middleware(['web'])
     });
 
 Route::namespace('mvd81\laravelHorizonTagSearchInPendingAndCompletedJobs\Http\Controllers')
-    ->prefix('horizon/api')
+    ->domain(config('horizon.domain', null))
+    ->prefix(config('horizon.path'))
     ->group(function () {
 
         Route::get('/jobs/pending', [PendingJobsController::class, 'index'])
