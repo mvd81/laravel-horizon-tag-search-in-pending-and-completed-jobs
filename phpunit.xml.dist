@@ -22,5 +22,6 @@
     </testsuites>
     <php>
         <server name="REDIS_CLIENT" value="predis"/>
+        <server name="REDIS_HOST" value="redis"/>
     </php>
 </phpunit>
