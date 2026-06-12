@@ -6,3 +6,5 @@
 composer.lock
 .phpunit.result.cache
 local
+.claude
+CLAUDE.md
